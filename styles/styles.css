@@ -27,7 +27,20 @@ nav{
 
 button{
     border: 1px solid #3D424D;
-    padding: 15px 24px 15px 24px;
+    padding: 13px 24px 13px 24px;
     border-radius: 5px;
 
+}
+
+/* navigation end here */
+
+
+/* banner start here */
+
+
+.background{
+    max-width: 1240px;
+    max-height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
