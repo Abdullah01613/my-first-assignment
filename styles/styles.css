@@ -195,3 +195,48 @@ button{
     margin: 0 auto;
 
 }
+/* insprITION END HERE  */
+
+/* current terget start here  */
+
+.my-current-terget{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.current-heading{
+    padding-bottom: 15px;
+}
+
+
+.target-html{
+    background-color: #FFF6F4;
+    margin:3px solid red;
+    padding: 20px;
+    width: 26%;
+}
+
+.target-css{
+    background-color: rgba(0, 76, 232, 0.05);;
+    margin: solid;
+    padding: 20px;
+    width: 26%;
+}
+
+.target-java{
+    background-color: rgba(255, 223, 0, 0.05);;
+    margin: solid;
+    padding: 20px;
+    width: 26%;
+}
+
+.current-target-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
