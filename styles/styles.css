@@ -111,14 +111,26 @@ button{
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    text-align: lef;
+    text-align: left;
+    margin: 18px;
 }
 
 .section1-leftside{
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 .section1-leftside-text{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 18px;
+}
+.section2 img{
+
 }
