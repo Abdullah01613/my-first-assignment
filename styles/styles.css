@@ -105,3 +105,11 @@ button{
     padding-bottom: 15px;
 }
 
+.section1{
+    padding: 44px;
+    background-color: #FDFDFE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
