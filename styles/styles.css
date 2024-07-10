@@ -250,7 +250,7 @@ button{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     background-image: url(../assets/handshake.jpg);
     width: 80%;
     background-size: cover;
@@ -270,4 +270,16 @@ button{
     border-radius: 8px;
     width: 80px;
     height: 30px;
+}
+
+/* support section end  */
+
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
