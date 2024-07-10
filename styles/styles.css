@@ -257,6 +257,17 @@ button{
     background-position: center;
     border-radius: 5px;
     margin: 0 auto;
- 
-}
 
+}
+.text-input{
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 310px;
+    height: 30px;
+}
+.submit{
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
+}
