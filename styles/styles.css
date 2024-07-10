@@ -181,8 +181,17 @@ button{
     padding-bottom: 15px;
 }
 
-.vidoe{
-    margin: 10px 20px 10px 20px;
+.main-insprition-section{
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.vidoe{
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    width: 80%;
+    margin: 0 auto;
+
 }
