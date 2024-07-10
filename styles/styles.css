@@ -186,6 +186,7 @@ button{
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin-top: 15px;
 }
 .vidoe{
     border-radius: 15px;
@@ -238,14 +239,24 @@ button{
     justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    margin-left: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 /* support start here 
  */
 
- .support{
+ .support-section{
     display: flex;
     justify-content: center;
     text-align: center;
- }
+    margin-top: 40px;
+    background-image: url(../assets/handshake.jpg);
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin: 0 auto;
+ 
+}
+
