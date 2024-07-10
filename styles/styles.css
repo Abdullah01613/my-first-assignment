@@ -12,8 +12,8 @@ body{
 }
 
 p{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 /* navigation start here  */
@@ -98,7 +98,7 @@ button{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 20px 0;
+    margin: 80px 0 20px 0;
 } 
 
 .title-h2{
@@ -111,5 +111,14 @@ button{
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    text-align: left;
+    text-align: lef;
+}
+
+.section1-leftside{
+    padding-top: 10%;
+}
+
+.section1-leftside-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
