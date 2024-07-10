@@ -106,7 +106,7 @@ button{
 }
 
 .section1{
-    padding: 44px;
+    padding: 20px;
     background-color: #FDFDFE;
     border-radius: 5px;
     display: flex;
@@ -128,9 +128,41 @@ button{
 .section2{
     display: flex;
     justify-content: center;
-    text-align: center;
-    margin: 18px;
+    text-align: right;
+    margin-top: 18px;
+    padding: 20px;
+    background-color: #FDFDFE;
+    border-radius: 5px;
 }
-.section2 img{
+
+.section2-rightside{
+    padding-top: 12%;
+}
+
+.section2-rightside-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
+
+
+.section3{
+    padding: 20px;
+    background-color: #FDFDFE;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 18px;
+}
+
+.section3-leftside{
+    padding-top: 12%;
+}
+
+.section3-leftside-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* main section end */
