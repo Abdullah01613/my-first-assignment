@@ -215,7 +215,6 @@ button{
 
 .target-html{
     background-color: #FFF6F4;
-    margin:3px solid red;
     padding: 20px;
     width: 26%;
 }
@@ -236,7 +235,17 @@ button{
 
 .current-target-box{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 80%;
+    margin-left: 30px;
 }
+
+/* support start here 
+ */
+
+ .support{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
