@@ -11,6 +11,11 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* navigation start here  */
 
 nav{
@@ -37,10 +42,43 @@ button{
 
 /* banner start here */
 
-
-.background{
-    max-width: 1240px;
-    max-height: 650px;
-    background-size: cover;
-    background-repeat: no-repeat;
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    position: cover;
+    height: 450px;
 }
+.main-header img, h1,p, button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.main-header img{
+    margin: 0 auto;
+    margin-bottom: 10px;
+} 
+.banner h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.banner p{
+    font-size: 13px;
+    font-weight: 380;
+    text-align: center;
+    margin-top: 10px;
+}
+.banner button{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:#0D1321;
+    color: #FFFFFF;
+    padding: 21px 24px;
+}
+
+/* banner done  */
