@@ -48,7 +48,7 @@ button{
     position: cover;
     height: 450px;
 }
-.main-header img, h1,p, button{
+.main-header {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -57,6 +57,8 @@ button{
 .main-header img{
     margin: 0 auto;
     margin-bottom: 10px;
+    margin-left: 42%;
+    size: 280px;
 } 
 .banner h1{
     font-size: 40px;
@@ -65,7 +67,7 @@ button{
     margin-top: 10px;
 }
 
-.banner p{
+.banner-title {
     font-size: 13px;
     font-weight: 380;
     text-align: center;
@@ -79,6 +81,27 @@ button{
     background-color:#0D1321;
     color: #FFFFFF;
     padding: 21px 24px;
+    margin-left: 45%;
 }
 
 /* banner done  */
+
+/* main section start  */
+
+
+.main-why-web-development-section{
+    margin: 40px 100px;
+}
+
+.why-web-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+} 
+
+.title-h2{
+    padding-bottom: 15px;
+}
+
