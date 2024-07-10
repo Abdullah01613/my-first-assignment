@@ -166,3 +166,23 @@ button{
 }
 
 /* main section end */
+
+/* insprition section start here */
+
+.header-insprition-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 80px 0 20px 0;
+}
+
+.my-insprition{
+    padding-bottom: 15px;
+}
+
+.vidoe{
+    margin: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: center;
+}
